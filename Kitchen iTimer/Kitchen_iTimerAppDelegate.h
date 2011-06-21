@@ -10,7 +10,9 @@
 
 @class Kitchen_iTimerViewController;
 
-@interface Kitchen_iTimerAppDelegate : NSObject <UIApplicationDelegate> {
+@interface Kitchen_iTimerAppDelegate : NSObject <UIApplicationDelegate, UIImagePickerControllerDelegate> {
+    UIWindow *window;
+    Kitchen_iTimerViewController *viewController;
 
 }
 

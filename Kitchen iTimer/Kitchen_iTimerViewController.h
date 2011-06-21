@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Kitchen_iTimerViewController : UIViewController {
-    
+@interface Kitchen_iTimerViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>{
+    UIButton *button;
 }
+
+- (IBAction)camerachosen:(UIButton *)sender;
+- (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info;
+
 
 @end

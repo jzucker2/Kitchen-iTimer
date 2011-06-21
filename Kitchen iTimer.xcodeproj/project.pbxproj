@@ -23,14 +23,14 @@
 		334E281613B007BC0010084C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		334E281813B007BC0010084C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		334E281A13B007BC0010084C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		334E281E13B007BC0010084C /* Kitchen iTimer-Info.plist */ = {isa = PBXFileReference; path = "Kitchen iTimer-Info.plist"; sourceTree = "<group>"; };
+		334E281E13B007BC0010084C /* Kitchen iTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kitchen iTimer-Info.plist"; sourceTree = "<group>"; };
 		334E282013B007BC0010084C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		334E282213B007BC0010084C /* Kitchen iTimer-Prefix.pch */ = {isa = PBXFileReference; path = "Kitchen iTimer-Prefix.pch"; sourceTree = "<group>"; };
+		334E282213B007BC0010084C /* Kitchen iTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kitchen iTimer-Prefix.pch"; sourceTree = "<group>"; };
 		334E282313B007BC0010084C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		334E282513B007BC0010084C /* Kitchen_iTimerAppDelegate.h */ = {isa = PBXFileReference; path = Kitchen_iTimerAppDelegate.h; sourceTree = "<group>"; };
+		334E282513B007BC0010084C /* Kitchen_iTimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kitchen_iTimerAppDelegate.h; sourceTree = "<group>"; };
 		334E282613B007BC0010084C /* Kitchen_iTimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen_iTimerAppDelegate.m; sourceTree = "<group>"; };
 		334E282913B007BC0010084C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		334E282B13B007BC0010084C /* Kitchen_iTimerViewController.h */ = {isa = PBXFileReference; path = Kitchen_iTimerViewController.h; sourceTree = "<group>"; };
+		334E282B13B007BC0010084C /* Kitchen_iTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kitchen_iTimerViewController.h; sourceTree = "<group>"; };
 		334E282C13B007BC0010084C /* Kitchen_iTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen_iTimerViewController.m; sourceTree = "<group>"; };
 		334E282F13B007BC0010084C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Kitchen_iTimerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
