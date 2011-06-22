@@ -7,13 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BurnerChooserViewController.h"
 
-@interface Kitchen_iTimerViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>{
-    UIButton *button;
+@interface Kitchen_iTimerViewController : UIViewController <UINavigationControllerDelegate, BurnerChooserViewControllerDelegate, UIImagePickerControllerDelegate>{
+    /*UIButton *button;
+    UIButton * sender
+     */
+
 }
 
-- (IBAction)camerachosen:(UIButton *)sender;
+- (IBAction) camerachosen:(id)sender;
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info;
+- (IBAction) chooseburners:(id)sender;
 
 
 @end
