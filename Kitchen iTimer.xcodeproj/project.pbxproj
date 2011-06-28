@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		330C4D4513B14E6400AC24B8 /* BurnerChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330C4D4313B14E6400AC24B8 /* BurnerChooserViewController.m */; };
 		330C4D4613B14E6400AC24B8 /* BurnerChooserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 330C4D4413B14E6400AC24B8 /* BurnerChooserView.xib */; };
+		33439B4213BA8E5000433BD3 /* iconplaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 33439B4113BA8E5000433BD3 /* iconplaceholder.png */; };
 		334E281713B007BC0010084C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E281613B007BC0010084C /* UIKit.framework */; };
 		334E281913B007BC0010084C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E281813B007BC0010084C /* Foundation.framework */; };
 		334E281B13B007BC0010084C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E281A13B007BC0010084C /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 		330C4D4213B14E6400AC24B8 /* BurnerChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BurnerChooserViewController.h; sourceTree = "<group>"; };
 		330C4D4313B14E6400AC24B8 /* BurnerChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BurnerChooserViewController.m; sourceTree = "<group>"; };
 		330C4D4413B14E6400AC24B8 /* BurnerChooserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BurnerChooserView.xib; sourceTree = "<group>"; };
+		33439B4113BA8E5000433BD3 /* iconplaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconplaceholder.png; sourceTree = "<group>"; };
 		334E281213B007BB0010084C /* Kitchen iTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen iTimer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		334E281613B007BC0010084C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		334E281813B007BC0010084C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +59,7 @@
 		334E280713B007BB0010084C = {
 			isa = PBXGroup;
 			children = (
+				33439B4113BA8E5000433BD3 /* iconplaceholder.png */,
 				334E281C13B007BC0010084C /* Kitchen iTimer */,
 				334E281513B007BC0010084C /* Frameworks */,
 				334E281313B007BB0010084C /* Products */,
@@ -179,6 +182,7 @@
 				334E282A13B007BC0010084C /* MainWindow.xib in Resources */,
 				334E283013B007BC0010084C /* Kitchen_iTimerView.xib in Resources */,
 				330C4D4613B14E6400AC24B8 /* BurnerChooserView.xib in Resources */,
+				33439B4213BA8E5000433BD3 /* iconplaceholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
