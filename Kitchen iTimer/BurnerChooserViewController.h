@@ -10,8 +10,11 @@
 
 @protocol BurnerChooserViewControllerDelegate;
 
+//@class PlacardView;
+
 @interface BurnerChooserViewController : UIViewController {
     IBOutlet UIImageView * pic;
+    
     
     
 }

@@ -19,6 +19,7 @@
 		334E282A13B007BC0010084C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334E282813B007BC0010084C /* MainWindow.xib */; };
 		334E282D13B007BC0010084C /* Kitchen_iTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334E282C13B007BC0010084C /* Kitchen_iTimerViewController.m */; };
 		334E283013B007BC0010084C /* Kitchen_iTimerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334E282E13B007BC0010084C /* Kitchen_iTimerView.xib */; };
+		3389C09F13BA9271000CDBD2 /* PlacardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389C09E13BA9271000CDBD2 /* PlacardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		334E282B13B007BC0010084C /* Kitchen_iTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kitchen_iTimerViewController.h; sourceTree = "<group>"; };
 		334E282C13B007BC0010084C /* Kitchen_iTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen_iTimerViewController.m; sourceTree = "<group>"; };
 		334E282F13B007BC0010084C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Kitchen_iTimerView.xib; sourceTree = "<group>"; };
+		3389C09D13BA9271000CDBD2 /* PlacardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacardView.h; sourceTree = "<group>"; };
+		3389C09E13BA9271000CDBD2 /* PlacardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +62,9 @@
 		334E280713B007BB0010084C = {
 			isa = PBXGroup;
 			children = (
-				33439B4113BA8E5000433BD3 /* iconplaceholder.png */,
+				3389C09D13BA9271000CDBD2 /* PlacardView.h */,
+				3389C09E13BA9271000CDBD2 /* PlacardView.m */,
+				3389C09213BA91F7000CDBD2 /* Resources */,
 				334E281C13B007BC0010084C /* Kitchen iTimer */,
 				334E281513B007BC0010084C /* Frameworks */,
 				334E281313B007BB0010084C /* Products */,
@@ -106,6 +111,22 @@
 				334E282313B007BC0010084C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3389C09213BA91F7000CDBD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3389C09413BA9203000CDBD2 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3389C09413BA9203000CDBD2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				33439B4113BA8E5000433BD3 /* iconplaceholder.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		33BEE7E213B11BCA005F9E7E /* Main Menu */ = {
@@ -197,6 +218,7 @@
 				334E282713B007BC0010084C /* Kitchen_iTimerAppDelegate.m in Sources */,
 				334E282D13B007BC0010084C /* Kitchen_iTimerViewController.m in Sources */,
 				330C4D4513B14E6400AC24B8 /* BurnerChooserViewController.m in Sources */,
+				3389C09F13BA9271000CDBD2 /* PlacardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
