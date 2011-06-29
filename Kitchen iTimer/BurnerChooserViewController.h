@@ -10,16 +10,24 @@
 
 @protocol BurnerChooserViewControllerDelegate;
 
-//@class PlacardView;
+@class PlacardView;
 
 @interface BurnerChooserViewController : UIViewController {
     IBOutlet UIImageView * pic;
+    PlacardView *placardView;
     
     
     
 }
 
 //@property (nonatomic, retain) IBOutlet UIImage * pic;
+
+@property (nonatomic, retain) PlacardView *placardView;
+
+- (void)setUpPlacardView;
+- (void)animateFirstTouchAtPoint:(CGPoint)touchPoint;
+//- (void)animatePlacardViewToCenter;
+- (void)resetPlacardView;
 
 @property (nonatomic, assign) id <BurnerChooserViewControllerDelegate> delegate;
 
@@ -28,6 +36,8 @@
 //- (id)initWithImage;
 
 //- (void) setURL;
+
+- (IBAction) addTimer:(id)sender;
 
 
 @end

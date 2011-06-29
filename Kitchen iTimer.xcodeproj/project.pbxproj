@@ -11,6 +11,7 @@
 		330C4D4613B14E6400AC24B8 /* BurnerChooserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 330C4D4413B14E6400AC24B8 /* BurnerChooserView.xib */; };
 		332AB16013BABB29008FA776 /* Placard.png in Resources */ = {isa = PBXBuildFile; fileRef = 332AB15F13BABB29008FA776 /* Placard.png */; };
 		332AB16313BABB34008FA776 /* DisplayStrings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 332AB16213BABB34008FA776 /* DisplayStrings.txt */; };
+		332AB16513BAC1DD008FA776 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332AB16413BAC1DD008FA776 /* QuartzCore.framework */; };
 		33439B4213BA8E5000433BD3 /* iconplaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 33439B4113BA8E5000433BD3 /* iconplaceholder.png */; };
 		334E281713B007BC0010084C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E281613B007BC0010084C /* UIKit.framework */; };
 		334E281913B007BC0010084C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E281813B007BC0010084C /* Foundation.framework */; };
@@ -30,6 +31,7 @@
 		330C4D4413B14E6400AC24B8 /* BurnerChooserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BurnerChooserView.xib; sourceTree = "<group>"; };
 		332AB15F13BABB29008FA776 /* Placard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placard.png; sourceTree = "<group>"; };
 		332AB16213BABB34008FA776 /* DisplayStrings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DisplayStrings.txt; sourceTree = "<group>"; };
+		332AB16413BAC1DD008FA776 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		33439B4113BA8E5000433BD3 /* iconplaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconplaceholder.png; sourceTree = "<group>"; };
 		334E281213B007BB0010084C /* Kitchen iTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen iTimer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		334E281613B007BC0010084C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332AB16513BAC1DD008FA776 /* QuartzCore.framework in Frameworks */,
 				334E281713B007BC0010084C /* UIKit.framework in Frameworks */,
 				334E281913B007BC0010084C /* Foundation.framework in Frameworks */,
 				334E281B13B007BC0010084C /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +89,7 @@
 		334E281513B007BC0010084C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				332AB16413BAC1DD008FA776 /* QuartzCore.framework */,
 				334E281613B007BC0010084C /* UIKit.framework */,
 				334E281813B007BC0010084C /* Foundation.framework */,
 				334E281A13B007BC0010084C /* CoreGraphics.framework */,
