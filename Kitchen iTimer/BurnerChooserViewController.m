@@ -35,6 +35,9 @@
 
 
 - (void)setUpPlacardView {
+    
+    NSLog(@"inside setupplacardview");
+    
 	// Create the placard view -- its init method calculates its frame based on its image
 	PlacardView *aPlacardView = [[PlacardView alloc] init];
 	self.placardView = aPlacardView;
@@ -47,6 +50,8 @@
 
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    NSLog(@"inside touchesbegan");
 	
 	// We only support single touches, so anyObject retrieves just that touch from touches
 	UITouch *touch = [touches anyObject];
@@ -66,6 +71,8 @@
 
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    NSLog(@"inside touchesmoved");
 	
 	UITouch *touch = [touches anyObject];
 	
@@ -80,6 +87,8 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	
+    NSLog(@"inside touchesended");
+    
 	UITouch *touch = [touches anyObject];
 	
 	// If the touch was in the placardView, bounce it back to the center
@@ -95,6 +104,8 @@
 
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    NSLog(@"inside touchescancelled");
 	
 	/*
      To impose as little impact on the device as possible, simply set the placard view's center and transformation to the original values.
@@ -112,6 +123,8 @@
 #if 1
 
 - (void)growAnimationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context {
+    
+    NSLog(@"inside growanimationdidstop");
 	
 #define MOVE_ANIMATION_DURATION_SECONDS 0.15
 	
@@ -130,6 +143,9 @@
 }
 
 - (void)animateFirstTouchAtPoint:(CGPoint)touchPoint {
+    
+    NSLog(@"inside animatefirsttouchatpoint");
+    
 	/*
 	 "Pulse" the placard view by scaling up then down, then move the placard to under the finger.
 	 
@@ -158,6 +174,8 @@
  */
 
 - (void)animateFirstTouchAtPoint:(CGPoint)touchPoint {
+    
+    NSLog(@"inside animatefirsttouchatpoint");
 	
 #define GROW_ANIMATION_DURATION_SECONDS 0.15
 #define SHRINK_ANIMATION_DURATION_SECONDS 0.15
@@ -264,6 +282,9 @@
 
 
 - (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag {
+    
+    NSLog(@"inside animationdidstop theanimation finished");
+    
 	//Animation delegate method called when the animation's finished:
 	// restore the transform and reenable user interaction
 	placardView.transform = CGAffineTransformIdentity;
@@ -271,6 +292,9 @@
 }
 
 - (void) resetPlacardView {
+    
+    NSLog(@"inside resetplacardview");
+    
     placardView.transform = CGAffineTransformIdentity;
     pic.userInteractionEnabled = YES;
 }
